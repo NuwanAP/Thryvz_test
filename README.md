@@ -7,6 +7,13 @@
 ## Introduction
 
 This API provides endpoints for process “New Order” with an authentication.
+(Source:master)
+
+# Create MYSQL DB
+  ```DB_DATABASE=thryvz```
+  ```DB_USERNAME=root```
+  ``` DB_PASSWORD=```
+
 
 # Run Migration and Seeder
 ```php artisan Migrate ```
