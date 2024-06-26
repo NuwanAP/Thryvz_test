@@ -26,7 +26,19 @@ This API provides endpoints for process “New Order” with an authentication.
   - `password_confirmation` (required)
 - **Headers:**
   - `Content-Type` - application/json
- 
+- **Response Example:**
+  ```json
+    {
+    "user": {
+        "name": "new user 02",
+        "email": "nnnew@gmail.com",
+        "updated_at": "2024-06-26T05:47:25.000000Z",
+        "created_at": "2024-06-26T05:47:25.000000Z",
+        "id": 3
+    },
+    "token": "8|meqc4r48CaAR6dzZve5HC6Muczs3rhkuNn7BXmwC"
+  }
+ `
 ### 2. /api/login
 
 - **Method:** POST
